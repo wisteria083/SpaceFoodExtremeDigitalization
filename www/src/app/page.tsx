@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div
@@ -20,7 +18,7 @@ export default function Home() {
         overflow-hidden
       "
       style={{
-        backgroundImage: `url('/images/space-background.jpg')`,
+        backgroundImage: `url('/image.png')`,
       }}
     >
       {/* 星のアニメーションを追加する場合 */}
