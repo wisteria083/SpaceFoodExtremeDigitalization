@@ -2,29 +2,25 @@ export default function Home() {
   return (
     <div
       className="
-          bg-black 
-          bg-cover 
-          bg-center 
-          min-h-screen 
-          p-8 
-          pb-20 
-          gap-16 
-          sm:p-20 
-          font-[family-name:var(--font-geist-sans)] 
-          flex 
-          items-center 
-          justify-center
-          relative
-          overflow-hidden
-        "
+        bg-black 
+        bg-cover 
+        bg-center 
+        bg-fixed            /* Added to fix the background */
+        min-h-screen 
+        p-8 
+        pb-20 
+        gap-16 
+        font-[family-name:var(--font-geist-sans)]           
+        items-center 
+        justify-center
+        relative
+        overflow-hidden
+      "
       style={{
         backgroundImage: `url('/image.png')`,
       }}
     >
-      {/* 星のアニメーションを追加する場合 */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-
-      <main className="flex flex-col gap-32 items-center z-10">
+      <main className="flex flex-col gap-24 items-center z-10">
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <h1
             className="text-white font-bold animate-pulse text-center
@@ -81,7 +77,9 @@ export default function Home() {
                    2xl:text-7xl
                    "
           >
-            人工衛星位置計算APIからあなたとISSの位置を計算
+            人工衛星位置計算APIから
+            <br />
+            あなたとISSの位置を計算
             <br />
             <span className="text-xl">
               https://mgpn.org/api/space/index.html
