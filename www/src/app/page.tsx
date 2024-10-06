@@ -19,7 +19,7 @@ export default function Home() {
         overflow-hidden
       "
       style={{
-        backgroundImage: `url('/image.png')`,
+        backgroundImage: `url('/2c7a8bdc-2569-4aaf-90e7-bde2cd2cdc1c.webp')`,
         textShadow: "4px 4px 8px rgba(0, 0, 0, 0.7)",
       }}
     >
@@ -112,8 +112,8 @@ export default function Home() {
         <div className="flex flex-col items-center sm:flex-row gap-4">
           <div className="video-container">
             <iframe
-              width="560"
-              height="315"
+              width="1120"
+              height="630"
               src="https://www.youtube.com/embed/MFJukYr5sVY"
               title="YouTube video player"
               frameBorder="0"
