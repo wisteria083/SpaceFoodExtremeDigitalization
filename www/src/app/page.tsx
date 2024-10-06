@@ -75,7 +75,7 @@ export default function Home() {
             <br />
             あなたとISSの位置を計算
             <span className="block text-lg sm:text-xl">
-              Calculate your and ISS's position using the{" "}
+              Calculate your and ISSs position using the{" "}
               <a
                 href="https://mgpn.org/api/space/index.html"
                 className="underline hover:text-gray-300"
