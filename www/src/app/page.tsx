@@ -109,14 +109,19 @@ export default function Home() {
         </div>
 
         {/* セクション: ここに動画が入ります */}
-        {/* <div className="flex flex-col items-center sm:flex-row gap-4">
-          <h2 className="text-white font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-shadow">
-            ここに動画が入ります
-            <span className="block text-lg sm:text-xl">
-              Here will be a video
-            </span>
-          </h2>
-        </div> */}
+        <div className="flex flex-col items-center sm:flex-row gap-4">
+          <div className="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/MFJukYr5sVY"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* スペーサー */}
         <div className="mt-32"></div>
