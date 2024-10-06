@@ -19,6 +19,7 @@ export default function Home() {
         overflow-hidden
       "
       style={{
+        backgroundImage: `url('/image.png')`,
         textShadow: "4px 4px 8px rgba(0, 0, 0, 0.7)",
       }}
     >
